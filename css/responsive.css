@@ -1,0 +1,358 @@
+   
+    @media (min-width:325px) and (max-width:535px){
+       /* todo banner starts  */
+
+       .banner .banner__cnt{
+  
+        top: 0%;
+        transform: translateY(0%);
+        left: 0%;
+   
+       }
+       
+       
+     .banner_section h5{
+font-weight: 600;
+
+     }
+
+     .banner h2{
+    color: var(--thirdColor);
+
+/* Heading - H1 */
+font-family: var(--primaryFont);
+font-size: 10px;
+font-weight: 700;
+line-height: 0; /* 115.625% */
+margin: 0 0 0;
+      }
+     .banner p{
+     color: var(--fifthColor);
+
+       /* Paragraph/body text */
+       font-family: var(--secondaryFont);
+       font-size: 10px;
+       font-weight: 400;
+       line-height: 15px; /* 175% */
+     }
+     .banner button{
+     
+       margin: 29px 0 40px;
+     }
+
+
+     .left__arrows,.right__arrows{
+          position: absolute;
+          width: 40px;
+          height: 40px;
+          text-align: center;
+          top: 63%;
+          left: 0;
+          z-index:999;
+          font-size: 30px;
+          background-color:var(--fifthColor);
+          color: var(--thirdColor);
+          border: 1px solid var(--thirdColor);
+          border-radius: 50%;
+          transition: .2s;
+          line-height: 40px;
+          cursor: pointer;
+          &:hover{
+            background-color:var(--primaryColor);
+            color: var(--fifthColor);
+            border: none;
+          }
+     }
+
+     .right__arrows{
+         left: 10%
+     }
+
+     .banner__dots{
+       position: absolute;
+      top: 0%;
+     left: 0%;
+
+     }
+
+      .banner__dots li{
+       display: inline-block;
+      
+       margin: 0 7px;
+      }
+      .banner__dots li button{
+        width: 13px;
+        height: 13px;
+        border: none;
+        background-color: var(--fifthColor);
+        color: transparent;
+        border-radius:15px;
+      
+      }
+
+.banner__dots li.slick-active button{
+  background-color:var(--primaryColor);
+  width: 30px;
+}
+  .banner__cnt button{
+     border: 3px solid var(--primaryColor);
+     text-transform: uppercase;
+    font-weight: bold;
+    transition: .3s;
+     margin-left: 0;
+  }
+  .banner__cnt button:hover{
+    background-color: var(--primaryColor);
+
+  }
+/* todo banner ends  */
+    }   
+  
+  
+  
+  /* * collection section */
+            @media (min-width:325px) and (max-width:535px){
+              .collection__slick__arrows span{
+          
+                   width: 20px;
+                   height: 20px;
+               
+                      line-height: 20px;
+                      font-size: 18px;
+                      border-radius: 50%;
+                    top: 395px;
+                left: 20px;   
+           
+               }
+
+              .collec__right{
+                margin-left: 265px
+               } 
+            }
+
+            .collection_cart_title h4{
+              text-transform: capitalize;
+              font-size: 18px;
+              margin: 20px 0 10px;
+              
+           }
+           .cart__para p{
+            margin-left: 20px;
+            border-right: 2px solid black;
+            padding-right: 5px;
+            font-size: 16px;
+           }
+           .cart__para .collection_cart_details_icon{
+             font-size: 15px;
+           }
+           .cart__para{
+            margin: 20px 0;
+           }
+           .cart__para .collection_cart_details_icon{
+            color: orangered;
+           }
+           .collec__share__td{
+            width: 34%;
+           }
+           .collec__share__icons{
+            text-align: right;
+            font-size: 25px;
+           }
+          .share_icon_1{
+            margin-right: 25px;
+          }
+        
+          .collection_cart_pricing {
+            border-top: 1px solid rgba(0, 0, 0, 0.281);
+            border-bottom: 1px solid rgba(0, 0, 0, 0.281);
+            padding: 8px 0;
+          }
+          .collection_cart_pricing h1{
+            color: #FF6F61;
+          }
+    
+          .collection__product__size{
+            padding: 25px 0;
+          }
+          .collection__product__size label{
+            text-transform: uppercase;
+            margin-right: 10px;
+            font-size: 20px;
+          }
+          .collection__product__size > select{
+            width: 60%;
+            text-align: center;
+            margin-left: 43px;
+          }
+        
+          .collection__product__colour{
+            padding: 25px 0;
+          }
+          .collection__product__colour label{
+            text-transform: uppercase;
+            margin-right: 10px;
+            font-size: 20px;
+          }
+          .collection__product__colour select{
+            width: 60%;
+            text-align: center;
+          }
+          
+          .collection__quantity h5{
+            text-transform: uppercase;
+            padding: 15px 0 5px;
+          }
+          .collection__quantity  .btn-group {
+            width: 90%;
+           margin: 15px 0;
+          }
+          .collection__quantity  .btn-group *{
+             width: 30%;
+             height: 50px;
+          }
+           .collection__quantity  .btn-group button{
+               border: none;
+               outline: none;
+               text-align: center;
+               line-height: 50px;
+               border: 1px solid var(--Gray-5, #E0E0E0);
+               background: var(--Comon-Colot, #FFF);
+               transition: linear 2s ;
+           }
+           .collection__quantity  .btn-group button:hover i{
+            transform: scale(1.2);
+           }
+           .collection__quantity  .btn-group .cart__result{
+            text-align: center;
+            border: 1px solid var(--Gray-5, #E0E0E0);
+            background: var(--Comon-Colot, #FFF);
+            line-height: 50px;
+           }
+        
+           .colletion__cart__buttons{
+            width: 100%;
+           }
+           .colletion__cart__buttons button{
+            width: 40%;
+            height: 40px;
+           margin: 20px 8px 20px 0;
+           background-color: transparent;
+            border: 1px solid blue;
+            outline: none;
+            font-size: 15px;
+            text-transform: uppercase;
+            font-weight: 500;
+            border-radius: 5px;
+            letter-spacing: 2px;
+         transition: all .3s;
+         cursor: pointer;
+           }
+           .colletion__cart__buttons button:hover{
+           background-color: blue;
+           color: white;
+           }
+        
+           .colletion__cart__buttons button.cart{
+            width: 50%;
+            border: 1px solid pink;
+           }
+        
+           .colletion__cart__buttons button.cart:hover{
+            background-color: pink;
+            font-weight: 700;
+           }
+        
+           .collection__slick__images{
+            width: 100%;
+           }
+        
+        
+           /*  cart delivery section starts*/
+        
+           .collection__cart__delivery .collection__delivery__details{
+            display: flex;
+            margin: 15px 0;
+            text-transform: capitalize;
+           }
+           .collection__delivery__details h6{
+            text-transform: uppercase;
+            font-weight: 800;
+            letter-spacing: 2px; 
+          }
+        
+           .collection__delivery__details p{
+            margin-left: 35px;
+           }
+           .collection__delivery__details .collec__delivery__icon{
+             color: rgba(0, 0, 0, 0.479);
+               font-size: 20px;
+           }
+
+  /* * collection section */
+
+
+
+
+/* * Subscribe section */
+
+@media  (min-width:325px ) and (max-width:535px){
+    .subscribe {
+        margin: 0;
+        padding: 10px 5px;
+    }
+
+    .subscribe h3{
+        margin-left: 45px;
+        font-size: 20px;
+       }
+       .subscribe__details p{
+          margin: 10px 0;
+       }
+      .subscribe .subscribe__details{
+     margin: 0;
+     padding: 0;
+      }
+      .subscribe .subscribe__details input{
+        width: 250px;
+        height: 35px;
+        display: inline;
+        font-size: 15px;
+        padding: 0 0 0 10px;
+        margin-top: 15px;
+        border: none;
+        outline: none;
+       background-color: #FFF;
+      }
+      .subscribe .subscribe__details .subscribe__btn{
+             padding: 6px 10px;
+           border: none;
+           letter-spacing: 3px;
+           background-color: var(--primaryColor);
+           color: white;
+           transition: .2s;
+           text-transform: uppercase;
+           font-size: 15px;
+           font-weight: 500;
+           cursor: pointer;
+           transition: 400ms;
+            margin: 15px 0 0;
+      
+      }
+      .subscribe .subscribe__details .subscribe__btn:hover{
+              background-color: transparent;
+              border: 1px solid var(--primaryColor);
+      }
+      .payment__lists{
+      margin: 40px 0 0;
+        
+      }
+      .payment__lists img{
+       width: 80px;
+       height: 50px;
+       margin: 7px;
+      }
+
+}
+
+/* * subscribe section ends */
+

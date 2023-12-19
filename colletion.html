@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+        <!-- TODO ------------------ CSS LINKS ------------------ -->
+     <!--?  google font link  -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Kaisei+Tokumin&family=Poppins&display=swap" rel="stylesheet">
+                    <!-- JQUERY PLAGIN STARTS  -->
+                                       
+                                    <!-- ? VENOBOX -->
+                                    <link rel="stylesheet" href="./css/venobox.min.css">
+                        <!--? AOS  -->
+                        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+                            <!-- ? SLIK SLIDER -->
+                            <link rel="stylesheet" href="./css/slick.min.css">
+                    <!-- JQUERY PLAGIN ENDS -->
+                     <!--  font awesome link -->
+     <link rel="stylesheet" href="./css/fontawesome.min.css" class="css">
+                                 <!--? CSS LINKS -->
+         <!--  BOOTSTRAP -->
+         <link rel="stylesheet" href="./css/bootstrap.min.css" class="css">
+                  <!-- COMMON CSS -->
+                  <link rel="stylesheet" href="./css/common.css">
+           <!--  collection css -->
+           <link rel="stylesheet" href="./css/collection.css">
+         <!-- MAIN CSS  -->
+         <link rel="stylesheet" href="./css/style.css" class="css">
+         <!-- RESPONSIVE CSS -->
+          <link rel="stylesheet" href="./css/responsive.css">
+
+      
+    <!-- TODO ------------------ CSS LINKS ------------------ -->
+</head>
+<body>
+         
+      <!--todo nav starts  -->
+      <nav class="navbar navbar-expand-lg  ">
+        <div class="container">
+            <a href="#" class="nav-brand text-decoration-none"><img src="./images/shopping-bag-icon.png" alt="shopping-bag-logo">  <span class="text-dark" style="font-family: 'Kaisei Tokumin', serif; letter-spacing:2px;"><span style="color: #FF6F61;">ATT</span> IRE</span></a>
+          <!--  toggle button -->
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample" >
+            <span class="nav__toggler__icon"> <iconify-icon icon="jam:menu"></iconify-icon></span>
+          </button>
+    
+          <div class="collapse navbar-collapse" id="navbarText">
+               <!--  nav list starts  -->
+            <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+    
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="index.html">home</a>
+              </li>
+    
+              <li class="nav-item nav__dropdown">
+                <a class="nav-link dropdown-toggle" href="#collection" data-bs-toggle="dropdown">collection</a>
+    
+                <ul class="dropdown__lists" >
+                  <li style="margin: 0 0 10px;"><a    class=" dropdown__list" href="#">Action</a></li>
+                  <li style="margin: 0 0 10px;"><a    class=" dropdown__list" href="#">Another action</a></li>
+                  <!-- <li><hr class=""></li> -->
+                  <li style="margin: 0 0 10px;"><a    class=" dropdown__list" href="#">Something else here</a></li>
+                  <li style="margin: 0 0 10px;"><a    class=" dropdown__list" href="#">Action</a></li>
+                  <li style="margin: 0 0 10px;"><a    class=" dropdown__list" href="#">Another action</a></li>
+                </ul>
+              </li>
+    
+           
+              <li class="nav-item nav__dropdown">
+                <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">speacials</a>
+    
+                <ul class="dropdown__lists" >
+                  <li style="margin: 0 0 10px;"><a    class=" dropdown__list" href="#">Action</a></li>
+                  <li style="margin: 0 0 10px;"><a    class=" dropdown__list" href="#">Another action</a></li>
+                  <!-- <li><hr class=""></li> -->
+                  <li style="margin: 0 0 10px;"><a    class=" dropdown__list" href="#">Something else here</a></li>
+                  <li style="margin: 0 0 10px;"><a    class=" dropdown__list" href="#">Action</a></li>
+                  <li style="margin: 0 0 10px;"><a    class=" dropdown__list" href="#">Another action</a></li>
+                </ul>
+              </li>
+    
+    
+              <li class="nav-item nav__dropdown">
+                <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">blogs</a>
+    
+                <ul class="dropdown__lists" >
+                  <li style="margin: 0 0 10px;"><a    class=" dropdown__list" href="#">Action</a></li>
+                  <li style="margin: 0 0 10px;"><a    class=" dropdown__list" href="#">Another action</a></li>
+                  <!-- <li><hr class=""></li> -->
+                  <li style="margin: 0 0 10px;"><a    class=" dropdown__list" href="#">Something else here</a></li>
+                  <li style="margin: 0 0 10px;"><a    class=" dropdown__list" href="#">Action</a></li>
+                  <li style="margin: 0 0 10px;"><a    class=" dropdown__list" href="#">Another action</a></li>
+                </ul>
+              </li>
+    
+    
+    
+              <li class="nav-item nav__dropdown">
+                <a class="nav-link" href="#">about us</a>
+    
+                <!-- <ul class="dropdown__lists" >
+                  <li style="margin: 0 0 10px;"><a    class=" dropdown__list" href="#">Action</a></li>
+                  <li style="margin: 0 0 10px;"><a    class=" dropdown__list" href="#">Another action</a></li>
+                
+                  <li style="margin: 0 0 10px;"><a    class=" dropdown__list" href="#">Something else here</a></li>
+                  <li style="margin: 0 0 10px;"><a    class=" dropdown__list" href="#">Action</a></li>
+                  <li style="margin: 0 0 10px;"><a    class=" dropdown__list" href="#">Another action</a></li>
+                </ul> -->
+              </li>
+    
+              <li class="nav-item nav__dropdown">
+                <a class="nav-link" href="#" data-bs-toggle="dropdown">populer</a>
+              </li>
+                      
+    
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">contact</a>
+              </li>
+    
+            </ul>
+    <!--   nav list end -->
+        <!-- nav icon -->
+    <div class="d-none d-md-block d-lg-block">
+        <button class="btn position-relative" type="button">
+            <i class="fas fa-cart-shopping"></i>
+            <span class="badge bg position-absolute top-0 start-100 translate-middle">5</span>
+        </button>
+    
+        <button class="btn position-relative" type="button">
+            <i class="fas fa-heart"></i>
+            <span class="badge bg position-absolute top-0 start-100 translate-middle">2</span>
+        </button>
+    
+        
+        <button class="btn position-relative" type="button">
+            <i class="fas fa-search"></i>
+         
+        </button>
+    </div>
+          <!-- nav icon -->
+          </div>
+        </div>
+      </nav>
+    
+    
+    <!-- todo nav ends  -->
+    
+    <!-- ?  offcanvas stars  -->
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+      
+      <div class="offcanvas-header">
+        <a href="#" class="nav-brand text-decoration-none"><img src="./images/shopping-bag-icon.png" alt="shopping-bag-logo">  <span class="text-dark" style="font-family: 'Kaisei Tokumin', serif; letter-spacing:2px;"><span style="color: #FF6F61;">ATT</span> IRE</span></a>
+    
+        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      
+      <div class="offcanvas-body">
+                 <!--  nav list starts  -->
+                 <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+    
+                    <li class="nav-item">
+                      <a class="nav-link " aria-current="page" href="index.html">home</a>
+                    </li>
+          
+                    <li class="nav-item nav__dropdown">
+                      <a class="nav-link dropdown-toggle" href="#collection" data-bs-toggle="dropdown">collection</a>
+          
+                      <ul class="dropdown__lists" >
+                        <li style="margin: 0 0 10px;"><a    class=" dropdown__list" href="#">Action</a></li>
+                        <li style="margin: 0 0 10px;"><a    class=" dropdown__list" href="#">Another action</a></li>
+                        <!-- <li><hr class=""></li> -->
+                        <li style="margin: 0 0 10px;"><a    class=" dropdown__list" href="#">Something else here</a></li>
+                        <li style="margin: 0 0 10px;"><a    class=" dropdown__list" href="#">Action</a></li>
+                        <li style="margin: 0 0 10px;"><a    class=" dropdown__list" href="#">Another action</a></li>
+                      </ul>
+                    </li>
+          
+                 
+                    <li class="nav-item nav__dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">speacials</a>
+          
+                      <ul class="dropdown__lists" >
+                        <li style="margin: 0 0 10px;"><a    class=" dropdown__list" href="#">Action</a></li>
+                        <li style="margin: 0 0 10px;"><a    class=" dropdown__list" href="#">Another action</a></li>
+                        <!-- <li><hr class=""></li> -->
+                        <li style="margin: 0 0 10px;"><a    class=" dropdown__list" href="#">Something else here</a></li>
+                        <li style="margin: 0 0 10px;"><a    class=" dropdown__list" href="#">Action</a></li>
+                        <li style="margin: 0 0 10px;"><a    class=" dropdown__list" href="#">Another action</a></li>
+                      </ul>
+                    </li>
+          
+          
+                    <li class="nav-item nav__dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">blogs</a>
+          
+                      <ul class="dropdown__lists" >
+                        <li style="margin: 0 0 10px;"><a    class=" dropdown__list" href="#">Action</a></li>
+                        <li style="margin: 0 0 10px;"><a    class=" dropdown__list" href="#">Another action</a></li>
+                        <!-- <li><hr class=""></li> -->
+                        <li style="margin: 0 0 10px;"><a    class=" dropdown__list" href="#">Something else here</a></li>
+                        <li style="margin: 0 0 10px;"><a    class=" dropdown__list" href="#">Action</a></li>
+                        <li style="margin: 0 0 10px;"><a    class=" dropdown__list" href="#">Another action</a></li>
+                      </ul>
+                    </li>
+          
+          
+          
+                    <li class="nav-item nav__dropdown">
+                      <a class="nav-link d" href="#" >about us</a>
+          
+                      <!-- <ul class="dropdown__lists" >
+                        <li style="margin: 0 0 10px;"><a    class=" dropdown__list" href="#">Action</a></li>
+                        <li style="margin: 0 0 10px;"><a    class=" dropdown__list" href="#">Another action</a></li>
+                      
+                        <li style="margin: 0 0 10px;"><a    class=" dropdown__list" href="#">Something else here</a></li>
+                        <li style="margin: 0 0 10px;"><a    class=" dropdown__list" href="#">Action</a></li>
+                        <li style="margin: 0 0 10px;"><a    class=" dropdown__list" href="#">Another action</a></li>
+                      </ul> -->
+                    </li>
+          
+                    <li class="nav-item nav__dropdown">
+                      <a class="nav-link" href="#" data-bs-toggle="dropdown">populer</a>
+                    </li>
+                            
+          
+                    <li class="nav-item">
+                      <a class="nav-link" href="contact.html">contact</a>
+                    </li>
+          
+                  </ul>
+          <!--   nav list end -->
+    
+          <!-- nav icon -->
+    <div class="" style="margin-left: 200px;">
+        <button class="btn position-relative" type="button">
+            <i class="fas fa-cart-shopping"></i>
+            <span class="badge bg position-absolute top-0 start-100 translate-middle">5</span>
+        </button>
+    
+        <button class="btn position-relative" type="button">
+            <i class="fas fa-heart"></i>
+            <span class="badge bg position-absolute top-0 start-100 translate-middle">2</span>
+        </button>
+    
+        
+        <button class="btn position-relative" type="button">
+            <i class="fas fa-search"></i>
+         
+        </button>
+    </div>
+          <!-- nav icon -->
+      </div>
+    </div>        
+    <!-- * ofcanvas ends  -->
+
+            <!--  collection section starts  -->
+                        
+                      <div class="collection">
+                             <div class="container">
+                                  <div class="row">
+                                           
+                                      <div class=" col-12 col-md-4 col-lg-4">
+                                        <div class="collection__cart__img">
+                                          <img id="" src="./images/c_t-shirt_men.png"  class=""  >   
+                                          <img id="" src="./images/c_formal_gray_shirt.png"  class=""  > 
+                                          <img id="" src="./images/c_pant_girl.png"  class=""  >   
+                                          <img id="" src="./images/c_polo-shirt.png"  class=""  > 
+                                          <img id="" src="./images/c_t-shirt_men.png"  class=""  >   
+                                          <img id="" src="./images/c_tunic-shirt_girl.png"  class=""  > 
+                                          <img id="" src="./images/c_western-shirt.png"  class=""  >   
+                                          
+                                          </div>
+
+                                         <div class="collection__slick__images">
+                                     <div class="collection-slide">      <img id="" src="./images/c_t-shirt_men.png"  class=""  > </div>  
+                                         <div class="collection-slide">  <img id="" src="./images/c_formal_gray_shirt.png"  class=""  > </div>
+                                           <div class="collection-slide"><img id="" src="./images/c_pant_girl.png"  class="" >  </div> 
+                                           <div class="collection-slide"><img id="" src="./images/c_polo-shirt.png"  class=""  > </div>
+                                          <div class="collection-slide"> <img id="" src="./images/c_t-shirt_men.png"  class=""  >   </div>
+                                        <div class="collection-slide">   <img id="" src="./images/c_tunic-shirt_girl.png"  class=""  > </div>
+                                          <div class="collection-slide"> <img id="" src="./images/c_western-shirt.png"  class=""  >   </div>
+                                         </div>
+
+                                         <div class="collection__slick__arrows">
+                                          <span class="collec__right"><i class="fa-solid fa-arrow-right"></i></span>
+                                          <span class="collec__left"><i class="fa-solid fa-arrow-left"></i></span>
+                                         </div>
+
+                                         </div>
+
+                                      <div class=" col-12 col-md-5 col-lg-5">
+                                             <div class="collection__cart__details">
+                                                 <div class="collection_cart_title">
+                                                      <h4>Long Sleeve Casual Shirt For Men  </h4>
+                                                 </div>
+
+                                                 <div class="cart__para">
+                                                     <table>
+                                                      <tr>
+                                                        <td class="collection_cart_details_icon"><i class="fa-solid fa-star"></i></td>
+                                                        <td class="collection_cart_details_icon"><i class="fa-solid fa-star"></i></td>
+                                                        <td class="collection_cart_details_icon"><i class="fa-solid fa-star"></i></td>
+                                                        <td class="collection_cart_details_icon"><i class="fa-solid fa-star"></i></td>
+                                                        <td class="collection_cart_details_icon"><i class="fa-solid fa-star"></i></td>
+                                                        <td> <p>86 ratings</p></td>
+
+                                                        <td style="" class="collec__share__td">
+                                                          <div class="collec__share__icons">
+                                                             <span class="share_icon_1"><iconify-icon icon="material-symbols-light:share"></iconify-icon></span>
+                                                              <span><i class="fa-regular fa-heart"></i></span>
+                                                               
+                                                          </div>
+                                                        </td>
+                                                                                                          
+                                                      </tr>
+                                                     </table>
+                                                 </div>
+
+                                                   
+                                                 <div class="collection_cart_pricing">
+                                                          <h1>$50</h1>
+                                                           <p style="text-decoration: line-through;" class="text-muted">$70</p>
+                                                            <p>-20%</p>
+                                                 </div>
+
+                                                    <div class="collection__product__size">
+                                                         <label for="size">size </label>
+                                                          <select name="product_size" id="product_size">
+                                                              <option value="30">30</option>
+                                                              <option value="40">40</option>
+                                                              <option value="50">50</option>
+                                                              <option value="60">60</option>
+                                                          </select>
+                                                    </div>
+
+                                                        <div class="collection__product__colour">
+                                                         <label for="color">colour </label>
+                                                          <select name="product_color" id="product_color">
+                                                              <option value="red">red</option>
+                                                              <option value="red">red</option>
+                                                              <option value="red">red</option>
+                                                                <option value="red">red</option>
+                                                          </select>
+                                                    </div>
+
+                                                    <div class="collection__quantity">
+                                                                    <h5>quantity</h5>
+                                                                    <div class="btn-group">
+                                                                      <button class="minus" type="button"><i class="fa-solid fa-minus"></i></button>
+                                                                      <div  class="cart__result" data-value="5">5</div>
+                                                                      <button class="plus" type="button"><i class="fa-solid fa-plus"></i></button>
+                                                                    </div>    
+                                                    </div>
+
+                                                    <div class="colletion__cart__buttons">
+                                                          <button class="cart_bye">bye now</button>
+                                                          <button class="cart">add to cart</button>
+                                                    </div>
+
+                                             </div>
+                                      </div>
+                                      <div class=" col-12 col-md-3 col-lg-3">
+                                                      
+                                                     <div class="collection__cart__delivery">
+                                                    
+
+                                                        <div class="collection__delivery__details" style="justify-content: space-between;">
+                                                          <h6> delivery</h6>
+                                                        <span class="collec__delivery__icon"><i class="fa-solid fa-circle-exclamation"></i></span>
+                                                        </div>
+                                                        
+                                                       <div class="collection__delivery__details" style="justify-content: space-between;">
+                                                      <span class="collec__delivery__icon"><i class="fa-solid fa-location-dot"></i></span>
+                                                        <p>Dhaka, Dhaka North, Banani Road No. 12 </p>
+                                                        <p> <a href="#">CHANGE</a></p>
+                                                       </div>
+
+                                                        
+  
+                                                       <div class="collection__delivery__details">
+                                                        <span class="collec__delivery__icon"><i class="fa-solid fa-comments-dollar"></i></span>
+                                                        <p>Cash on Delivery Available
+                                                        </p>
+                                                       </div >
+  
+                                                       <div class="collection__delivery__details" style="justify-content: space-between;">
+                                                        <h6> service</h6>
+                                                      <span class="collec__delivery__icon"><i class="fa-solid fa-circle-exclamation"></i></span>
+                                                      </div>
+  
+                                                       <div class="collection__delivery__details">
+                                                        <span class="collec__delivery__icon"><iconify-icon icon="svg-spinners:clock"></iconify-icon></span>
+                                                        <p>7 Day Return
+                                                        </p>
+                                                       </div>
+
+                                                        <div class="collection__delivery__details">
+                                                        <span class="collec__delivery__icon"><iconify-icon icon="mdi:shield-off"></iconify-icon></span>
+                                                          <p>Warranty not available
+                                                          </p>
+                                                        </div>
+  
+                                                   
+                                                     </div>
+                                      </div>
+
+
+
+                                       
+                                    
+                                  
+                             </div>
+                      </div>
+                              
+            <!--  collection section ends  -->
+
+<!-- CONTAINER ENDS -->
+</div>
+
+<div class="container">
+  <!-- subscribe section starts  -->
+<section class="subscribe pb-5">
+  <div class="row">
+   <div class="col-12  col-lg-7">
+     <div class="title text-light pt-5">
+         <h3 class="position-relative d-inline-block">News Letter Subscription</h3>
+        </div>
+ 
+        <div class="subscribe__details p-4">
+                <p class="text-light w-75" style="text-transform: capitalize;"> 
+                 Subscribe with your email account to get our latest product updates.</p>
+              <form action="#">
+               <div class="button-group">
+                 <input type="email" class="" name="email" placeholder="Enter Your Email">
+                 <button class="subscribe__btn">subscribe</button>
+             </div>
+              </form>
+        </div>
+ 
+    </div>
+    <div class="col-12  col-lg-5">
+          <div class="payment__methods">
+           <div class="title text-light pt-3">
+             <h3 class="position-relative d-inline-block">Payment Methods</h3>
+            </div>
+            
+             <div class="payment__lists">
+                      <a href="#">  <img src="./images/payment/download.png" alt=""> </a>
+                       <a href="#"> <img src="./images/payment/master card(1).png" alt=""> </a>
+                      <a href="#">   <img src="./images/payment/dotch bangla bank.jpeg" alt=""> </a>
+       
+                       <a href="#">  <img src="./images/payment/bkash (1).png" alt=""> </a>
+                       <a href="#">  <img src="./images/payment/nogod.png" alt=""> </a>
+                       <a href="#">  <img src="./images/payment/roket.png" alt=""> </a>
+                      
+                      
+
+             </div>
+          </div>
+    </div>
+  </div>
+</section>
+
+<!-- subscribe section ends  -->
+
+<!-- footer section starts  -->
+<section class="footer">
+  <div class="row text-white">
+
+      <div class="col-12 col-sm-6 col-md-3 col-lg-3">
+           <h6 class=" pb-3 text-light"><span style="color: #FF6F61;">ATT</span> IRE</span></h6>
+                   <div class="footer__list">
+                      <ul>
+                        <li><a href="#about"> About attire</a></li>
+                        <li><a href="#"> digital payment</a></li>
+                        <li><a href="#"> digital card </a> </li>
+                        <li><a href="#"> attire mart </a> </li>
+                        <li><a href="#"> attire app </a> </li>
+                        <li><a href="#"> attire exclusive </a> </li>
+                     
+                      </ul>
+                   </div>
+      </div>
+
+      <div class="col-12 col-sm-6 col-md-3 col-lg-3">
+          <h6 class=" pb-3">customer care</h6>
+          <div class="footer__list">
+            <ul>
+              <li><a href="#about">help center</a></li>
+              <li><a href="#"> how to bye  </a> </li>
+              <li><a href="#"> returns & refunds  </a> </li>
+              <li><a href="contact.html">  contact us </a>  </li>
+      
+         
+            </ul>
+         </div>          
+     </div>
+
+ <div class="col-12 col-sm-6 col-md-3 col-lg-3">
+  <h6 class=" pb-3">  community</h6>
+  <div class="footer__list">
+    <ul>
+      <li><a href="#about"> helth</a> </li>
+      <li><a href="#"> education </a>  </li>
+      <li><a href="#"> environment </a>  </li>
+      <li><a href="#"> sports </a>  </li>
+      <li><a href="#">social service   </a>  </li>
+ 
+    </ul>
+ </div> 
+</div>
+
+<div class="col-12 col-sm-6 col-md-3 col-lg-3">
+      
+       <h6 class=" pb-3" style="margin-left: 0;">follow us</h6>
+       <table>
+            <tr>
+               <td>
+                    <span class="footer__icon"><iconify-icon icon="ic:outline-facebook"></iconify-icon> </span>
+               </td>
+
+               <td>
+                <span class="footer__icon"><iconify-icon icon="mdi:twitter"></iconify-icon> </span>
+           </td>
+
+           <td>
+            <span class="footer__icon"> <iconify-icon icon="mdi:instagram"></iconify-icon> </span>
+       </td>
+
+       <td>
+        <span class="footer__icon"> <iconify-icon icon="ic:baseline-telegram"></iconify-icon> </span>
+   </td>
+            </tr>
+
+       </table>     
+
+
+       <table>
+        <tr>
+          <td>
+           <button class="button type1"> 
+          
+           </button>
+          </td>
+       </tr>
+       </table>
+</div>
+
+  </div>
+</section>
+<!-- footer section ends  -->
+</div>
+
+ 
+
+
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+    
+<!-- !---------------- JS LINKS -------------- -->
+  <!--? JQUERY  -->
+   <script src="./js/jquery-3.7.1.min.js"></script>
+      <!-- ?ZOOM  -->
+        <script src="js/jquery.elevateZoom-3.0.8.min.js"></script>
+   <!-- ?TYPE IT -->
+    <script src="./js/index.umd.js"></script>
+         <!--  PLUGIN -->
+           <!-- ? VENOBOX -->
+             <script src="./js/venobox.min.js"></script>
+     <!-- ? MIX IT UP -->
+      <script src="./js/mixitup.min.js"></script>
+   <!-- ? BOOTSTARAP -->
+    <script src="./js/bootstrap.bundle.min.js"></script>
+     <!-- ? SLICK SLIDER -->
+     <script src="./js/slick.min.js"></script>
+<!-- ?AOS ANIMATION  -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+
+             <!--  PLUGIN -->
+ <!-- ? ICONYPI -->
+<script src="./js/iconify.min.js"></script>
+
+
+ <!-- ?MAIN JS -->
+  <script src="./js/web.js"></script>
+  
+
+<!-- !---------------- JS LINKS -------------- -->
+
+
+</body>
+</html>

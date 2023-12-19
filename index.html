@@ -1,0 +1,1155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+        <!-- TODO ------------------ CSS LINKS ------------------ -->
+     <!--?  google font link  -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Kaisei+Tokumin&family=Poppins&display=swap" rel="stylesheet">
+                    <!-- JQUERY PLAGIN STARTS  -->
+                                    <!-- ? VENOBOX -->
+                                    <link rel="stylesheet" href="./css/venobox.min.css">
+                        <!--? AOS  -->
+                        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+                            <!-- ? SLIK SLIDER -->
+                            <link rel="stylesheet" href="./css/slick.min.css">
+                    <!-- JQUERY PLAGIN ENDS -->
+     <!-- ? font awesome link -->
+     <link rel="stylesheet" href="./css/fontawesome.min.css" class="css">
+
+         <!-- ? BOOTSTRAP -->
+         <link rel="stylesheet" href="./css/bootstrap.min.css" class="css">
+            <!-- Collection -->
+         <link rel="stylesheet" href="./css/collection.css">
+         <!--? MAIN CSS  -->
+         <link rel="stylesheet" href="./css/style.css" class="css">
+         <!-- ?RESPONSIVE CSS -->
+          <link rel="stylesheet" href="./css/responsive.css">
+    <!-- TODO ------------------ CSS LINKS ------------------ -->
+</head>
+<body>
+           <!--  ! CONTAINER STARTS  -->
+    <div class="container">
+
+
+        <!--todo nav starts  -->
+<nav class="navbar navbar-expand-lg  ">
+    <div class="container">
+        <a href="#" class="nav-brand text-decoration-none"><img src="./images/shopping-bag-icon.png" alt="shopping-bag-logo">  <span class="text-dark" style="font-family: 'Kaisei Tokumin', serif; letter-spacing:2px;"><span style="color: #FF6F61;">ATT</span> IRE</span></a>
+      <!--  toggle button -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample" >
+        <span class="nav__toggler__icon"> <iconify-icon icon="jam:menu"></iconify-icon></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarText">
+           <!--  nav list starts  -->
+        <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+
+          <li class="nav-item">
+            <a class="nav-link " aria-current="page" href="index.html">home</a>
+          </li>
+
+          <li class="nav-item nav__dropdown">
+            <a class="nav-link dropdown-toggle" href="#collection" data-bs-toggle="dropdown">collection</a>
+
+            <ul class="dropdown__lists" >
+              <li style="margin: 0 0 10px;"><a    class=" dropdown__list" href="#">Action</a></li>
+              <li style="margin: 0 0 10px;"><a    class=" dropdown__list" href="#">Another action</a></li>
+              <!-- <li><hr class=""></li> -->
+              <li style="margin: 0 0 10px;"><a    class=" dropdown__list" href="#">Something else here</a></li>
+              <li style="margin: 0 0 10px;"><a    class=" dropdown__list" href="#">Action</a></li>
+              <li style="margin: 0 0 10px;"><a    class=" dropdown__list" href="#">Another action</a></li>
+            </ul>
+          </li>
+
+       
+          <li class="nav-item nav__dropdown">
+            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">speacials</a>
+
+            <ul class="dropdown__lists" >
+              <li style="margin: 0 0 10px;"><a    class=" dropdown__list" href="#">Action</a></li>
+              <li style="margin: 0 0 10px;"><a    class=" dropdown__list" href="#">Another action</a></li>
+              <!-- <li><hr class=""></li> -->
+              <li style="margin: 0 0 10px;"><a    class=" dropdown__list" href="#">Something else here</a></li>
+              <li style="margin: 0 0 10px;"><a    class=" dropdown__list" href="#">Action</a></li>
+              <li style="margin: 0 0 10px;"><a    class=" dropdown__list" href="#">Another action</a></li>
+            </ul>
+          </li>
+
+
+          <li class="nav-item nav__dropdown">
+            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">blogs</a>
+
+            <ul class="dropdown__lists" >
+              <li style="margin: 0 0 10px;"><a    class=" dropdown__list" href="#">Action</a></li>
+              <li style="margin: 0 0 10px;"><a    class=" dropdown__list" href="#">Another action</a></li>
+              <!-- <li><hr class=""></li> -->
+              <li style="margin: 0 0 10px;"><a    class=" dropdown__list" href="#">Something else here</a></li>
+              <li style="margin: 0 0 10px;"><a    class=" dropdown__list" href="#">Action</a></li>
+              <li style="margin: 0 0 10px;"><a    class=" dropdown__list" href="#">Another action</a></li>
+            </ul>
+          </li>
+
+
+          <li class="nav-item nav__dropdown">
+            <a class="nav-link" href="#populer" data-bs-toggle="dropdown">populer</a>
+          </li>
+
+          <li class="nav-item nav__dropdown">
+            <a class="nav-link" href="#">about us</a>
+
+            <!-- <ul class="dropdown__lists" >
+              <li style="margin: 0 0 10px;"><a    class=" dropdown__list" href="#">Action</a></li>
+              <li style="margin: 0 0 10px;"><a    class=" dropdown__list" href="#">Another action</a></li>
+            
+              <li style="margin: 0 0 10px;"><a    class=" dropdown__list" href="#">Something else here</a></li>
+              <li style="margin: 0 0 10px;"><a    class=" dropdown__list" href="#">Action</a></li>
+              <li style="margin: 0 0 10px;"><a    class=" dropdown__list" href="#">Another action</a></li>
+            </ul> -->
+          </li>
+                  
+
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">contact</a>
+          </li>
+
+        </ul>
+<!--   nav list end -->
+    <!-- nav icon -->
+<div class="d-none d-md-block d-lg-block">
+    <button class="btn position-relative" type="button">
+        <i class="fas fa-cart-shopping"></i>
+        <span class="badge bg position-absolute top-0 start-100 translate-middle">5</span>
+    </button>
+
+    <button class="btn position-relative" type="button">
+        <i class="fas fa-heart"></i>
+        <span class="badge bg position-absolute top-0 start-100 translate-middle">2</span>
+    </button>
+
+    
+    <button class="btn position-relative" type="button">
+        <i class="fas fa-search"></i>
+     
+    </button>
+</div>
+      <!-- nav icon -->
+      </div>
+    </div>
+  </nav>
+
+
+<!-- todo nav ends  -->
+
+<!-- ?  offcanvas stars  -->
+<div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+  
+  <div class="offcanvas-header">
+    <a href="#" class="nav-brand text-decoration-none"><img src="./images/shopping-bag-icon.png" alt="shopping-bag-logo">  <span class="text-dark" style="font-family: 'Kaisei Tokumin', serif; letter-spacing:2px;"><span style="color: #FF6F61;">ATT</span> IRE</span></a>
+
+    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  
+  <div class="offcanvas-body">
+             <!--  nav list starts  -->
+             <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+
+                <li class="nav-item">
+                  <a class="nav-link " aria-current="page" href="index.html">home</a>
+                </li>
+      
+                <li class="nav-item nav__dropdown">
+                  <a class="nav-link dropdown-toggle" href="#collection" data-bs-toggle="dropdown">collection</a>
+      
+                  <ul class="dropdown__lists" >
+                    <li style="margin: 0 0 10px;"><a    class=" dropdown__list" href="#">Action</a></li>
+                    <li style="margin: 0 0 10px;"><a    class=" dropdown__list" href="#">Another action</a></li>
+                    <!-- <li><hr class=""></li> -->
+                    <li style="margin: 0 0 10px;"><a    class=" dropdown__list" href="#">Something else here</a></li>
+                    <li style="margin: 0 0 10px;"><a    class=" dropdown__list" href="#">Action</a></li>
+                    <li style="margin: 0 0 10px;"><a    class=" dropdown__list" href="#">Another action</a></li>
+                  </ul>
+                </li>
+      
+             
+                <li class="nav-item nav__dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">speacials</a>
+      
+                  <ul class="dropdown__lists" >
+                    <li style="margin: 0 0 10px;"><a    class=" dropdown__list" href="#">Action</a></li>
+                    <li style="margin: 0 0 10px;"><a    class=" dropdown__list" href="#">Another action</a></li>
+                    <!-- <li><hr class=""></li> -->
+                    <li style="margin: 0 0 10px;"><a    class=" dropdown__list" href="#">Something else here</a></li>
+                    <li style="margin: 0 0 10px;"><a    class=" dropdown__list" href="#">Action</a></li>
+                    <li style="margin: 0 0 10px;"><a    class=" dropdown__list" href="#">Another action</a></li>
+                  </ul>
+                </li>
+      
+      
+                <li class="nav-item nav__dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">blogs</a>
+      
+                  <ul class="dropdown__lists" >
+                    <li style="margin: 0 0 10px;"><a    class=" dropdown__list" href="#">Action</a></li>
+                    <li style="margin: 0 0 10px;"><a    class=" dropdown__list" href="#">Another action</a></li>
+                    <!-- <li><hr class=""></li> -->
+                    <li style="margin: 0 0 10px;"><a    class=" dropdown__list" href="#">Something else here</a></li>
+                    <li style="margin: 0 0 10px;"><a    class=" dropdown__list" href="#">Action</a></li>
+                    <li style="margin: 0 0 10px;"><a    class=" dropdown__list" href="#">Another action</a></li>
+                  </ul>
+                </li>
+      
+                <li class="nav-item nav__dropdown">
+                  <a class="nav-link" href="#populer">populer</a>
+                </li>
+
+      
+                <li class="nav-item nav__dropdown">
+                  <a class="nav-link d" href="#" >about us</a>
+      
+                  <!-- <ul class="dropdown__lists" >
+                    <li style="margin: 0 0 10px;"><a    class=" dropdown__list" href="#">Action</a></li>
+                    <li style="margin: 0 0 10px;"><a    class=" dropdown__list" href="#">Another action</a></li>
+                  
+                    <li style="margin: 0 0 10px;"><a    class=" dropdown__list" href="#">Something else here</a></li>
+                    <li style="margin: 0 0 10px;"><a    class=" dropdown__list" href="#">Action</a></li>
+                    <li style="margin: 0 0 10px;"><a    class=" dropdown__list" href="#">Another action</a></li>
+                  </ul> -->
+                </li>
+      
+              
+                        
+      
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">contact</a>
+                </li>
+      
+              </ul>
+      <!--   nav list end -->
+
+      <!-- nav icon -->
+<div class="" style="margin-left: 200px;">
+    <button class="btn position-relative" type="button">
+        <i class="fas fa-cart-shopping"></i>
+        <span class="badge bg position-absolute top-0 start-100 translate-middle">5</span>
+    </button>
+
+    <button class="btn position-relative" type="button">
+        <i class="fas fa-heart"></i>
+        <span class="badge bg position-absolute top-0 start-100 translate-middle">2</span>
+    </button>
+
+    
+    <button class="btn position-relative" type="button">
+        <i class="fas fa-search"></i>
+     
+    </button>
+</div>
+      <!-- nav icon -->
+  </div>
+</div>        
+<!-- * ofcanvas ends  -->
+
+
+
+ <!-- header starts here  -->
+
+ <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="./images/banner-img-1.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="./images/banner-img-1.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="./images/banner-img-1.jpg" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+ <!-- <section id="home">
+    <div class="carousel slide carousel-dark" data-bs-ride="carousel" id="carousel__home">
+        <div class="carousel-inner">
+            <div class="carousel-indicators">
+                <button data-bs-target="#slide1" data-bs-slide-to="0" class="active"></button>
+                <button data-bs-target="#slide2" data-bs-slide-to="1"></button>
+              
+            </div>
+        
+            <div class="carousel-item active text-white fw-bold " id="slide1">
+                    <div class="collection__details_img_1 d-flex flex-column justify-content-center align-items-center">
+                        <h6> <span class="coarousel__span">Best</span> Collection</h6>
+                        <h1>NEW ARRIVALS</h1>
+                     <div class="mt-3">  <a href="#">  <button class="btn ">Shop Now</button></a></div>
+                    </div>    
+            </div>
+
+            <div class="carousel-item text-white fw-bold" id="slide2">
+                <div class="collection__details_img_2 d-flex flex-column justify-content-center align-items-center">
+                    <h6><span class="coarousel__span">Best</span>  Collection</h6>
+                    <h1>NEW ARRIVALS</h1>
+                     <div class="mt-3"><a href="#">  <button class="btn ">Shop Now</button></a></div>
+                </div>    
+        </div>
+    
+        
+        
+        </div>
+
+        <button class="carousel-control-prev" data-bs-target="#carousel__home" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>            <span class="visually-hidden"></span>
+        </button>
+
+        <button class="carousel-control-next" data-bs-target="#carousel__home" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
+ </section> -->
+
+<!-- header starts here  -->
+
+ <!-- collection section starts here  -->
+ <section id="collection">
+           <div class="container">
+               <div class="title text-center text-danger mt-5">
+                <h3 class="position-relative d-inline-block" id="collectionHeading">New Collection</h3>
+               </div>
+
+                                <!--  ---------   Mix it up buttons -->
+            <div class="collection__button text-center mt-4 mb-3">
+
+              <button class="btn  btn-sm" data-filter="all"   data-aos-delay="300"  data-aos="fade-left" >All</button>
+
+                <button class="btn  btn-sm" data-filter=".best__sell"    data-aos="fade-up" >Best Sellers</button>
+
+            <button class="btn  btn-sm" data-filter=".featured"  data-aos-delay="700"  data-aos="fade-down" >Featured</button>
+
+              <button class="btn  btn-sm" data-filter=".new__arrival"   data-aos="fade-right" >New Arrival</button>
+            </div>
+                                <!--  ---------   Mix it up buttons -->
+            <div class="row collecton__mix container">
+                 <!--  best selll -->
+                <div class="mix  best__sell  col-12 col-sm-6 col-md-4 col-lg-3 mb-3" id="img___1" data-aos="fade-right"  data-aos-delay="300">
+
+                <div class="img__collection position-relative mb-2">
+                     <a href="colletion.html"> <img src="./images/c_formal_gray_shirt.png" alt="" class="w-100"></a>
+                    <span class="position-absolute">sale</span>
+                </div>
+
+              <div class="img__collection_rating text-center">
+                <div class="star_icon">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                  <p>gray t-whirt</p>
+                      <p class="fw-bold">$45.50</p>
+              </div>
+               
+                </div>
+                <div class="mix  best__sell  col-12 col-sm-6 col-md-4 col-lg-3 mb-3" id="img___2" data-aos="fade-right"  data-aos-delay="300">
+
+                    <div class="img__collection position-relative mb-2">
+                           <a href="colletion.html">   <img src="./images/c_polo-shirt.png" alt="" class="w-100"> </a>
+                        <span class="position-absolute">sale</span>
+                    </div>
+    
+                  <div class="img__collection_rating text-center">
+                    <div class="star_icon">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                      <p>gray t-whirt</p>
+                          <p class="fw-bold">$45.50</p>
+                  </div>
+                   
+                    </div>
+
+                    <div class="mix  best__sell  col-125 col-sm-6 col-md-4 col-lg-3 mb-3" id="img___3" data-aos="fade-right"  data-aos-delay="300">
+
+                        <div class="img__collection position-relative mb-2">
+                            <a href="colletion.html"> <img src="./images/c_polo-shirt.png" alt="" class="w-100"></a>
+                            <span class="position-absolute">sale</span>
+                        </div>
+        
+                      <div class="img__collection_rating text-center">
+                        <div class="star_icon">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                          <p>gray t-whirt</p>
+                              <p class="fw-bold">$45.50</p>
+                      </div>
+                       
+                        </div>
+
+                        <div class="mix  best__sell  col-12 col-sm-6 col-md-4 col-lg-3 mb-3" id="img___4" data-aos="fade-right"  data-aos-delay="300">
+
+                            <div class="img__collection position-relative mb-2">
+                                  <a href="colletion.html"> <img src="./images/c_shirt-girl.png" alt="" class="w-100"></a>
+                                <span class="position-absolute">sale</span>
+                            </div>
+            
+                          <div class="img__collection_rating text-center">
+                            <div class="star_icon">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                              <p>gray t-whirt</p>
+                                  <p class="fw-bold">$45.50</p>
+                          </div>
+                           
+                            </div>
+        
+                            
+                            <div class="mix  best__sell  col-125 col-sm-6 col-md-4 col-lg-3 mb-3" id="img___5" data-aos="fade-left">
+
+                                <div class="img__collection position-relative mb-2">
+                                    <a href="colletion.html"> <img src="./images/c_t-shirt_men.png" alt="" class="w-100"></a>
+                                    <span class="position-absolute">sale</span>
+                                </div>
+                
+                              <div class="img__collection_rating text-center" id="">
+                                <div class="star_icon">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                  <p>gray t-whirt</p>
+                                      <p class="fw-bold">$45.50</p>
+                              </div>
+                               
+                                </div>
+
+                                <div class="mix  best__sell  col-125 col-sm-6 col-md-4 col-lg-3 mb-3" id="img___6" data-aos="fade-left">
+
+                                    <div class="img__collection position-relative mb-2">
+                                         <a href="colletion.html">  <img src="./images/c_tunic-shirt_girl.png" alt="" class="w-100"></a>
+                                        <span class="position-absolute">sale</span>
+                                    </div>
+                    
+                                  <div class="img__collection_rating text-center">
+                                    <div class="star_icon">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                      <p>gray t-whirt</p>
+                                          <p class="fw-bold">$45.50</p>
+                                  </div>
+                                   
+                                    </div>
+                                      <!-- featured -->
+                                    <div class="mix featured  col-125 col-sm-6 col-md-4 col-lg-3 mb-3" id="img___7" data-aos="fade-left">
+
+                                        <div class="img__collection position-relative mb-2">
+                                              <a href="colletion.html"><img src="./images/c_undershirt.png" alt="" class="w-100"></a>
+                                            <span class="position-absolute">sale</span>
+                                        </div>
+                        
+                                      <div class="img__collection_rating text-center">
+                                        <div class="star_icon">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+                                          <p>gray t-whirt</p>
+                                              <p class="fw-bold">$45.50</p>
+                                      </div>
+                                       
+                                        </div>
+                                 
+
+                                        
+                                        <div class="mix  featured  col-125 col-sm-6 col-md-4 col-lg-3 mb-3" id="img___8" data-aos="fade-left">
+
+                                            <div class="img__collection position-relative mb-2">
+                                                 <a href="colletion.html"> <img src="./images/c_western-shirt.png" alt="" class="w-100"></a>
+                                                <span class="position-absolute">sale</span>
+                                            </div>
+                            
+                                          <div class="img__collection_rating text-center">
+                                            <div class="star_icon">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                              <p>gray t-whirt</p>
+                                                  <p class="fw-bold">$45.50</p>
+                                          </div>
+                                           
+                                            </div>
+
+                                                 
+                                        <div class="mix  featured  col-125 col-sm-6 col-md-4 col-lg-3 mb-3" id="img___8" data-aos="fade-right">
+
+                                            <div class="img__collection position-relative mb-2">
+                                                <a href="colletion.html"><img src="./images/c_western-shirt.png" alt="" class="w-100"></a>
+                                                <span class="position-absolute">sale</span>
+                                            </div>
+                            
+                                          <div class="img__collection_rating text-center">
+                                            <div class="star_icon">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                              <p>gray t-whirt</p>
+                                                  <p class="fw-bold">$45.50</p>
+                                          </div>
+                                           
+                                            </div>
+
+                                                 
+                                        <div class="mix  featured  col-125 col-sm-6 col-md-4 col-lg-3 mb-3" id="img___8" data-aos="fade-right">
+
+                                            <div class="img__collection position-relative mb-2">
+                                               <a href="colletion.html"> <img src="./images/c_t-shirt_men.png" alt="" class="w-100"></a>
+                                                <span class="position-absolute">sale</span>
+                                            </div>
+                            
+                                          <div class="img__collection_rating text-center">
+                                            <div class="star_icon">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                              <p>gray t-whirt</p>
+                                                  <p class="fw-bold">$45.50</p>
+                                          </div>
+                                           
+                                            </div>
+
+                                                    <!-- featured -->
+                                                    
+                                                 <!-- new arrival -->
+                                        <div class="mix  new__arrival  col-125 col-sm-6 col-md-4 col-lg-3 mb-3" id="img___8" data-aos="fade-right">
+
+                                            <div class="img__collection position-relative mb-2">
+                                                <a href="colletion.html"><img src="./images/c_western-shirt.png" alt="" class="w-100"></a>
+                                                <span class="position-absolute">sale</span>
+                                            </div>
+                            
+                                          <div class="img__collection_rating text-center">
+                                            <div class="star_icon">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                              <p>gray t-whirt</p>
+                                                  <p class="fw-bold">$45.50</p>
+                                          </div>
+                                           
+                                            </div>
+
+
+                                                 
+                                        <div class="mix  new__arrival  col-125 col-sm-6 col-md-4 col-lg-3 mb-3" id="img___8" data-aos="fade-right">
+
+                                            <div class="img__collection position-relative mb-2">
+                                                 <a href="colletion.html"><img src="./images/c_western-shirt.png" alt="" class="w-100"></a>
+                                                <span class="position-absolute">sale</span>
+                                            </div>
+                            
+                                          <div class="img__collection_rating text-center">
+                                            <div class="star_icon">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                              <p>gray t-whirt</p>
+                                                  <p class="fw-bold">$45.50</p>
+                                          </div>
+                                           
+                                            </div>
+
+
+                                                 
+                                        <div class="mix  new__arrival  col-125 col-sm-6 col-md-4 col-lg-3 mb-3" id="img___8">
+
+                                            <div class="img__collection position-relative mb-2">
+                                                 <a href="colletion.html"><img src="./images/c_western-shirt.png" alt="" class="w-100"></a>
+                                                <span class="position-absolute">sale</span>
+                                            </div>
+                            
+                                          <div class="img__collection_rating text-center">
+                                            <div class="star_icon">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                              <p>gray t-whirt</p>
+                                                  <p class="fw-bold">$45.50</p>
+                                          </div>
+                                           
+                                            </div>
+
+                                            <div class="mix  new__arrival  col-12 col-sm-6 col-md-4 col-lg-3 mb-3" id="img___1">
+
+                                                <div class="img__collection position-relative mb-2">
+                                                    <a href="colletion.html"> <img src="./images/c_formal_gray_shirt.png" alt="" class="w-100"></a>
+                                                    <span class="position-absolute">sale</span>
+                                                </div>
+                                
+                                              <div class="img__collection_rating text-center">
+                                                <div class="star_icon">
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                </div>
+                                                  <p>gray t-whirt</p>
+                                                      <p class="fw-bold">$45.50</p>
+                                              </div>
+                                               
+                                                </div>
+
+
+
+                                                <div class="mix  new__arrival  col-12 col-sm-6 col-md-4 col-lg-3 mb-3" id="img___1">
+
+                                                    <div class="img__collection position-relative mb-2">
+                                                        <a href="colletion.html"> <img src="./images/c_formal_gray_shirt.png" alt="" class="w-100"></a>
+                                                        <span class="position-absolute">sale</span>
+                                                    </div>
+                                    
+                                                  <div class="img__collection_rating text-center">
+                                                    <div class="star_icon">
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                    </div>
+                                                      <p>gray t-whirt</p>
+                                                          <p class="fw-bold">$45.50</p>
+                                                  </div>
+                                                   
+                                                    </div>
+                                              <!-- new arrival -->
+                                                 
+                                       
+                                              
+            </div>
+
+           </div>
+ </section>
+ <!-- collection section ends here  -->
+
+<!-- specials section starts  -->
+        <section id="specials">
+            <div class="title text-center text-danger mt-5">
+                <h3 class="position-relative d-inline-block" id="speacialHeading">Special Selection</h3>
+               </div>            
+            <div class="row p-2 mb-5">
+
+                  <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                       <div class="special__img mt-5 text-center">
+                            <a class="speacial__img__link" data-gall="gallary" href="./images/special_product_1.jpg" >  <img src="./images/special_product_1.jpg" alt="" class="img-fluid"  data-aos="flip-left" data-aos-delay="300" ></a>
+                             <p class="mt-3">Gray Shirt</p>
+                             <p class="fw-bold">$45.50</p>
+ <a href="colletion.html">                             <button class="btn  btn-sm">Add To Cart</button></a>                       </div>
+                  </div>
+
+                  <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="special__img mt-5 text-center">
+                          <a class="speacial__img__link" data-gall="gallary" href="./images/special_product_2.jpg" >  <img src="./images/special_product_2.jpg" alt="" class="img-fluid"   data-aos="flip-right" data-aos-delay="600" ></a>
+                          <p class="mt-3">Gray Shirt</p>
+                          <p class="fw-bold">$45.50</p>
+                          <a href="colletion.html"> <button class="btn  btn-sm">Add To Cart</button></a>
+                    </div>
+               </div>
+               <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="special__img mt-5 text-center">
+                   <a class="speacial__img__link" data-gall="gallary" href="./images/special_product_3.jpg" >   <img src="./images/special_product_3.jpg" alt="" class="img-fluid"  data-aos="fade-up" data-aos-delay="900" ></a>
+                      <p class="mt-3">Gray Shirt</p>
+                      <p class="fw-bold">$45.50</p>
+                      <a href="colletion.html"> <button class="btn  btn-sm">Add To Cart</button></a>
+                </div>
+           </div>
+           <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <div class="special__img mt-5 text-center">
+           <a class="speacial__img__link"  data-gall="gallary" href="./images/special_product_4.jpg" >       <img src="./images/special_product_4.jpg" alt="" class="img-fluid"  data-aos="fade-down" data-aos-delay="1200" ></a>
+                  <p class="mt-3">Gray Shirt</p>
+                  <p class="fw-bold">$45.50</p>
+                  <a href="colletion.html"> <button class="btn  btn-sm">Add To Cart</button></a>
+            </div>
+       </div>
+            </div>
+
+
+
+        </section>
+
+
+<section class="offer" data-aos="fade-up">
+       <div class="offer__img position-relative">
+        <img src="images/offer_img.jpg" alt="" class="w-100">
+         <div class="offer__img-details position-absolute">
+            <h6>Discount Up To 40%</h6>
+        <h1>Grand Sale Offer</h1>
+         <a href="colletion.html"><button class="btn btn-light">Buy Now</button></a>
+         </div>
+       </div>
+</section>
+<!-- speacial section ends  -->
+
+<!-- blog section starts  -->
+  <section id="blogs">
+    <div class="title text-center text-danger pt-5">
+        <h3 class="position-relative d-inline-block">Our Latest Blog</h3>
+       </div>
+       
+       <div class="row p-2 mt-4" data-aos="fade-left">
+        <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+                <div class="blog__img">
+                    <img src="images/blog_1.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="blog__img__details">
+                    <h6 class="p-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, dolore.</h6>
+                    <p class="text-muted small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, tempore omnis eaque quasi vel aspernatur vero consectetur placeat aliquid est dolore tempora expedita laudantium aperiam ad. Cupiditate ex neque quasi.</p>
+                    <p class="pt-1"><span class="fw-bold">Author:</span> John Doe</p>
+                  <a href="blog.html">  <button class="btn btn-outline-danger btn-sm mb-3">Read More</button></a>
+                </div>
+        </div>
+
+        <div class="col-12 col-sm-12 col-md-4 col-lg-4" data-aos="fade-up">
+            <div class="blog__img">
+                <img src="images/blog_2.jpg" alt="" class="img-fluid">
+            </div>
+            <div class="blog__img__details">
+                <h6 class="p-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, dolore.</h6>
+                <p class="text-muted small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, tempore omnis eaque quasi vel aspernatur vero consectetur placeat aliquid est dolore tempora expedita laudantium aperiam ad. Cupiditate ex neque quasi.</p>
+                <p class="pt-1"><span class="fw-bold">Author:</span> John Doe</p>
+                 <a href="blog.html"><button class="btn btn-outline-danger btn-sm mb-3">Read More</button></a>
+            </div>
+    </div>
+
+    <div class="col-12 col-sm-12 col-md-4 col-lg-4"data-aos="fade-right">
+        <div class="blog__img">
+            <img src="images/blog_3.jpg" alt="" class="img-fluid">
+        </div>
+        <div class="blog__img__details">
+            <h6 class="p-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, dolore.</h6>
+            <p class="text-muted small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, tempore omnis eaque quasi vel aspernatur vero consectetur placeat aliquid est dolore tempora expedita laudantium aperiam ad. Cupiditate ex neque quasi.</p>
+            <p class="pt-1"><span class="fw-bold">Author:</span> John Doe</p>
+             <a href="blog.html"><button class="btn btn-outline-danger btn-sm mb-3">Read More</button></a>
+        </div>
+</div>
+       </div>
+       
+
+  </section>
+<!--blog section ends-->
+
+
+<!-- about section starts  -->
+
+<section id="about" class="mt-5">
+    <div class="row p-3 bg-light">
+        <div class="col-12 col-sm-12 col-md-6 col-lg-6 text-center">
+            <img src="images/about_us.jpg" alt="" class="img-fluid" data-aos="zoom-in-up">
+        </div>
+
+        <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+            <div class="about__details" data-aos="fade-right">
+                <div class="title text-dark pt-5 pb-4 ms-3">
+                    <h3 class="position-relative d-inline-block">About Us</h3>
+                   </div>
+
+                   <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, vel.</p>
+                   <p class="">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto blanditiis fuga impedit? Asperiores, est cumque tempora modi quaerat id praesentium sunt, tenetur consectetur itaque esse magnam inventore illo ab quam.</p>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- about section ends  -->
+
+<!-- populer section starts here  -->
+<section id="populer">
+    <div class="title text-center text-danger pt-5">
+        <h3 class="position-relative d-inline-block">Populer Of This Year</h3>
+       </div>
+
+       <div class="row mt-5 p-4">
+
+        <div class="col-12 col-sm-6 col-md-4 col-lg-4 mb-5">
+            <h6>TOP RATED</h6>
+            <div class="top-rated__product position-relative">
+
+                <div class="top-rated__img">
+                    <img src="images/top_rated_1.jpg" alt="" class=" mt-2">
+                    <div class="rated-product__details  position-absolute">
+                        <p>Blue Shirt</p>
+                        <p>$ 20.00</p>
+                        <a href="#"> <button class="populer_btn">bye now</button></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-md-4 col-lg-4 mb-5">
+            <h6>Best Selling</h6>
+            <div class="top-rated__product position-relative">
+
+                <div class="top-rated__img">
+                    <img src="images/top_rated_2.jpg" alt="" class=" mt-2">
+                    <div class="rated-product__details  position-absolute">
+                        <p>Blue Shirt</p>
+                        <p>$ 20.00</p>
+                        <a href="#"> <button class="populer_btn">bye now</button> </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-md-4 col-lg-4 mb-5">
+            <h6>On Sale</h6>
+            <div class="top-rated__product position-relative">
+
+                <div class="top-rated__img">
+                    <img src="images/top_rated_3.jpg" alt="" class=" mt-2">
+                    <div class="rated-product__details  position-absolute">
+                        <p>Blue Shirt</p>
+                        <p>$ 20.00</p>
+                        <a href="#"> <button class="populer_btn">bye now</button> </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-md-4 col-lg-4 mt-3 mb-5">
+
+            <div class="top-rated__product position-relative">
+
+                <div class="top-rated__img">
+                    <img src="images/best_selling_1.jpg" alt="" class=" mt-2">
+                    <div class="rated-product__details  position-absolute">
+                        <p>Blue Shirt</p>
+                        <p>$ 20.00</p>
+                        <a href="#"> <button class="populer_btn">bye now</button> </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-md-4 col-lg-4 mb-5">
+
+            <div class="top-rated__product position-relative">
+
+                <div class="top-rated__img">
+                    <img src="images/on_sale_1.jpg" alt="" class=" mt-2">
+                    <div class="rated-product__details  position-absolute">
+                        <p>Blue Shirt</p>
+                        <p>$ 20.00</p>
+                        <a href="#"> <button class="populer_btn">bye now</button> </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-md-4 col-lg-4 mb-5">
+
+            <div class="top-rated__product position-relative">
+
+                <div class="top-rated__img">
+                    <img src="images/on_sale_2.jpg" alt="" class=" mt-2">
+                    <div class="rated-product__details  position-absolute">
+                        <p>Blue Shirt</p>
+                        <p>$ 20.00</p>
+                        <a href="#"> <button class="populer_btn">bye now</button> </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-md-4 col-lg-4 mb-5">
+
+            <div class="top-rated__product position-relative">
+
+                <div class="top-rated__img">
+                    <img src="images/on_sale_3.jpg" alt="" class=" mt-2">
+                    <div class="rated-product__details  position-absolute">
+                        <p>Blue Shirt</p>
+                        <p>$ 20.00</p>
+                        <a href="#"> <button class="populer_btn">bye now</button> </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-md-4 col-lg-4 mb-5">
+
+            <div class="top-rated__product position-relative">
+
+                <div class="top-rated__img">
+                    <img src="images/top_rated_2.jpg" alt="" class=" mt-2">
+                    <div class="rated-product__details  position-absolute">
+                        <p>Blue Shirt</p>
+                        <p>$ 20.00</p>
+                        <a href="#"> <button class="populer_btn">bye now</button> </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-md-4 col-lg-4 mb-5">
+
+            <div class="top-rated__product position-relative">
+
+                <div class="top-rated__img">
+                    <img src="images/top_rated_1.jpg" alt="" class=" mt-2">
+                    <div class="rated-product__details  position-absolute">
+                        <p>Blue Shirt</p>
+                        <p>$ 20.00</p>
+                        <a href="#"> <button class="populer_btn">bye now</button> </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        
+
+       </div>
+</section>
+<!-- populer section ends here  -->
+
+<!-- subscribe section starts  -->
+<section class="subscribe pb-5">
+       <div class="row">
+        <div class="col-12  col-lg-7">
+          <div class="title text-light pt-5">
+              <h3 class="position-relative d-inline-block">News Letter Subscription</h3>
+             </div>
+      
+             <div class="subscribe__details p-4">
+                     <p class="text-light w-75" style="text-transform: capitalize;"> 
+                      Subscribe with your email account to get our latest product updates.</p>
+                   <form action="#">
+                    <div class="button-group">
+                      <input type="email" class="" name="email" placeholder="Enter Your Email">
+                      <button class="subscribe__btn">subscribe</button>
+                  </div>
+                   </form>
+             </div>
+      
+         </div>
+         <div class="col-12  col-lg-5">
+               <div class="payment__methods">
+                <div class="title text-light pt-3">
+                  <h3 class="position-relative d-inline-block">Payment Methods</h3>
+                 </div>
+                 
+                  <div class="payment__lists">
+                           <a href="#">  <img src="./images/payment/download.png" alt=""> </a>
+                            <a href="#"> <img src="./images/payment/master card(1).png" alt=""> </a>
+                           <a href="#">   <img src="./images/payment/dotch bangla bank.jpeg" alt=""> </a>
+            
+                            <a href="#">  <img src="./images/payment/bkash (1).png" alt=""> </a>
+                            <a href="#">  <img src="./images/payment/nogod.png" alt=""> </a>
+                            <a href="#">  <img src="./images/payment/roket.png" alt=""> </a>
+                           
+                           
+
+                  </div>
+               </div>
+         </div>
+       </div>
+</section>
+
+<!-- subscribe section ends  -->
+
+<!-- footer section starts  -->
+<section class="footer">
+  <div class="row text-white">
+
+      <div class="col-12 col-sm-6 col-md-3 col-lg-3">
+           <h6 class=" pb-3 text-light"><span style="color: #FF6F61;">ATT</span> IRE</span></h6>
+                   <div class="footer__list">
+                      <ul>
+                        <li><a href="#about"> About attire</a></li>
+                        <li><a href="#"> digital payment</a></li>
+                        <li><a href="#"> digital card </a> </li>
+                        <li><a href="#"> attire mart </a> </li>
+                        <li><a href="#"> attire app </a> </li>
+                        <li><a href="#"> attire exclusive </a> </li>
+                     
+                      </ul>
+                   </div>
+      </div>
+
+      <div class="col-12 col-sm-6 col-md-3 col-lg-3">
+          <h6 class=" pb-3">customer care</h6>
+          <div class="footer__list">
+            <ul>
+              <li><a href="#about">help center</a></li>
+              <li><a href="#"> how to bye  </a> </li>
+              <li><a href="#"> returns & refunds  </a> </li>
+              <li><a href="contact.html">  contact us </a>  </li>
+      
+         
+            </ul>
+         </div>          
+     </div>
+
+ <div class="col-12 col-sm-6 col-md-3 col-lg-3">
+  <h6 class=" pb-3">  community</h6>
+  <div class="footer__list">
+    <ul>
+      <li><a href="#about"> helth</a> </li>
+      <li><a href="#"> education </a>  </li>
+      <li><a href="#"> environment </a>  </li>
+      <li><a href="#"> sports </a>  </li>
+      <li><a href="#">social service   </a>  </li>
+ 
+    </ul>
+ </div> 
+</div>
+
+<div class="col-12 col-sm-6 col-md-3 col-lg-3">
+      
+       <h6 class=" pb-3" style="margin-left: 0;">follow us</h6>
+       <table>
+            <tr>
+               <td>
+                    <span class="footer__icon"><iconify-icon icon="ic:outline-facebook"></iconify-icon> </span>
+               </td>
+
+               <td>
+                <span class="footer__icon"><iconify-icon icon="mdi:twitter"></iconify-icon> </span>
+           </td>
+
+           <td>
+            <span class="footer__icon"> <iconify-icon icon="mdi:instagram"></iconify-icon> </span>
+       </td>
+
+       <td>
+        <span class="footer__icon"> <iconify-icon icon="ic:baseline-telegram"></iconify-icon> </span>
+   </td>
+            </tr>
+
+       </table>     
+
+
+       <table>
+        <tr>
+          <td>
+           <button class="button type1"> 
+          
+           </button>
+          </td>
+       </tr>
+       </table>
+</div>
+
+  </div>
+</section>
+<!-- footer section ends  -->
+
+<!-- CONTAINER ENDS -->
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<!-- !---------------- JS LINKS -------------- -->
+  <!--? JQUERY  -->
+   <script src="./js/jquery-3.7.1.min.js"></script>
+   <!-- ?TYPE IT -->
+    <script src="./js/index.umd.js"></script>
+         <!--  PLUGIN -->
+           <!-- ? VENOBOX -->
+             <script src="./js/venobox.min.js"></script>
+     <!-- ? MIX IT UP -->
+      <script src="./js/mixitup.min.js"></script>
+   <!-- ? BOOTSTARAP -->
+    <script src="./js/bootstrap.bundle.min.js"></script>
+     <!-- ? SLICK SLIDER -->
+     <script src="./js/slick.min.js"></script>
+<!-- ?AOS ANIMATION  -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+             <!--  PLUGIN -->
+ <!-- ? ICONYPI -->
+<script src="./js/iconify.min.js"></script>
+
+
+ <!-- ?MAIN JS -->
+  <script src="./js/web.js"></script>
+
+<!-- !---------------- JS LINKS -------------- -->
+
+
+</body>
+</html>
